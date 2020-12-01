@@ -89,11 +89,12 @@ WSGI_APPLICATION = 'mainproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'practice',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST':'localhost'
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ethicsdb',
+        'USER': 'testuser',
+        'PASSWORD': 'TESTuser',
+        'HOST':'139.59.14.113',
+        'PORT': '3306',
     }
 }
 
